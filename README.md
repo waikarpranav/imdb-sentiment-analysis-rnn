@@ -1,1 +1,1 @@
-# revivew-classification-using-rnn
+imdb-sentiment-analysis-rnn
