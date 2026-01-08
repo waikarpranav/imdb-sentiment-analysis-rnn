@@ -1,4 +1,8 @@
 # Step 1: Import Libraries and Load the Model
+import streamlit as st
+
+st.title("IMDB Sentiment Analysis (RNN)")
+
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import imdb
@@ -47,4 +51,5 @@ if st.button('Classify'):
     st.write(f'Prediction Score: {prediction[0][0]}')
 else:
     st.write('Please enter a movie review.')
+
 
